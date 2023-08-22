@@ -1,38 +1,85 @@
+*{
+  background-color: #000814;
+  color: whitesmoke;
+}
+
 .App {
+  margin: 40px;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  border: 2px solid #003566;
+  height: auto;
+  width: auto;
+  justify-content: center;
+  justify-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+select{
+  padding: 10px;
+  margin: 15px;
+  border: 2px solid #003566;
+  background-color: black;
+  color: whitesmoke;
 }
 
-.App-link {
-  color: #61dafb;
+button{
+  padding: 10px;
+  margin: 15px;
+  border: 2px solid #003566;
+  background-color: black;
+  color: whitesmoke;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+input{
+  padding: 10px;
+  margin: 15px;
+  border: 2px solid #003566;
+  background-color: black;
+  color: whitesmoke;
+}
+
+div{
+  padding: 10px;
+  margin: 15px;
+  background-color: black;
+  color: whitesmoke;
+}
+
+h1{
+  color: #ffc300;
+}
+
+option{
+  background-color: #0000;
+  color: whitesmoke;
+}
+
+h2{
+  color: #ffd60a;
+}
+
+p{
+  color: #ffd60a;
+}
+
+@media only screen and (max-height: 1200px){
+  select{
+    padding: 1px;
+    margin: 5px;
   }
-  to {
-    transform: rotate(360deg);
+  
+  button{
+    padding: 1px;
+    margin: 5px;
+  }
+  
+  input{
+    padding: 1px;
+    margin: 5px;
+  }
+  
+  div{
+    padding: 1px;
+    margin: 5px;
   }
 }
